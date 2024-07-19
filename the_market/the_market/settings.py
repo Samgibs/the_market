@@ -165,6 +165,9 @@ DATABASES = {
         'PASSWORD': 'wayne',
         'HOST': 'localhost',
         'PORT': '3306',
+        'OPTIONS': {
+            'unix_socket': '/var/run/mysqld/mysqld.sock',
+        },
     }
 }
 
